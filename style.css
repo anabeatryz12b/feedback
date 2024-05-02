@@ -84,20 +84,23 @@ body{
     background-color: var(--linght-grey);
 }
 
-.card > button{
+.card > a{
+    display: block;
     width: 100%;
     padding: 13px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: var(--white);
+    text-align: center;
     background-color: var(--orange);
     border: none;
     border-radius: 22px;
     transition: all ease-in-out 0.3s;
+    text-decoration: none;
 }
 
-.card > button:hover{
+.card > a:hover{
     color: var(--orange);
     background-color: var(--white);
     cursor: pointer;
